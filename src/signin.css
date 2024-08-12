@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  
+  body{
+    background-color: rgb(17, 17, 17);
+  }
+  
+  .nav-menu{
+    display: flex;
+    justify-content: end;
+    gap: 40px;
+    font-size: 27px;
+    /* background-color: rgb(49, 48, 48); */
+    font-weight: lighter;
+    padding-right: 60px;
+    height: 105px;
+    padding: 35px;
+    color: white;
+  }
+  
+  .nav-menu li {
+    list-style-type: none;
+    
+  }
+  
+  .nav-menu a {
+    text-decoration: none;
+  }
+  
+  
+  .nav-menu .only {
+    border: 30px;
+    color: white;
+  }
+  
+  .nav-menu .only:hover{
+    background-color: aqua;
+  }
+  
+  
+  .welcome-div{
+    margin-top: 100px;
+  }
+  
+  .welcome{
+    margin-left: 160px;
+    color: white;
+    font-size: 50px;
+  }
+  
+  .paragr-under-welcome{
+    margin-top: 20px;
+    margin-left: 80px;
+    color: whitesmoke;
+    font-size: 21px;
+  }
+  
+  
+     /* The form div start from here */
+  
+  
+  .form-div{
+    margin-left: 80px;
+    margin-top: 30px;
+  }
+  
+  .name{
+    color: white;
+    margin-left: 20px;
+    font-size: 20px;
+  }
+  
+  input{
+    width: 25%;
+    height: 20%;
+    padding:15px;
+    background-color: rgba(10, 89, 153, 0.466);
+    border-radius: 10px;
+    border: none;
+    
+  }
+  
+  
+  .email{
+    color: white;
+    margin-left: 20px;
+    font-size: 20px;
+    
+  }
+  
+  .password{
+    color: white;
+    margin-left: 20px;
+    font-size: 20px;
+  }
+  
+  
+  
+  .phone-numbers{
+    color: white;
+    margin-left: 20px;
+    font-size: 20px;
+  }
+  
+  .checkbox-div{
+    margin-top: 9px;
+    
+  }
+  
+  
+  .check{
+    margin-left: -180px;
+    color: white;
+    font-size: 20px;
+    
+  }
+  
+  .check span{
+    font-size: 20px;
+    color: white;
+    margin-left: 150px;
+  }
+  
+  button{
+    background-color:white;
+    border: none;
+    padding: 14px;
+    text-align: center;
+    display: inline-block;
+    font-size: 20px;
+    margin-left: 80px;
+    border-radius: 9px;
+    width: 378px;
+    cursor: pointer;
+  }
+  
+  
+  button a {
+    text-decoration: none;
+  }
+  
+  button .enter{
+    color: rgb(107, 133, 133);
+  }
+  
+  .div-already{
+    margin-left: 140px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+  }
+  
+  .already{
+    font-size: 19px;
+    color:rgb(211, 207, 207);
+  }
+  
+  .already a{
+    text-decoration: none;
+    color: white;
+  }
